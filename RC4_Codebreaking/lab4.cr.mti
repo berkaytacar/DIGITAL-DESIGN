@@ -1,0 +1,15 @@
+{C:/Users/berka/Desktop/UBC/Year 3/term 2/CPEN 311/labs/lab4/template_de1soc/s_memory.v} {1 {vlog -work work -stats=none {C:/Users/berka/Desktop/UBC/Year 3/term 2/CPEN 311/labs/lab4/template_de1soc/s_memory.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module s_memory
+
+Top level modules:
+	s_memory
+
+} {} {}} {C:/Users/berka/Desktop/UBC/Year 3/term 2/CPEN 311/labs/lab4/template_de1soc/ksa_tb.v} {1 {vlog -work work -stats=none {C:/Users/berka/Desktop/UBC/Year 3/term 2/CPEN 311/labs/lab4/template_de1soc/ksa_tb.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module ksa_tb
+
+Top level modules:
+	ksa_tb
+
+} {} {}}
