@@ -1,0 +1,43 @@
+TEST 1: SIMULATION 1
+Use SignalTap to see if reading correct values from the flash mem.
+The values on LCD scope, starting from the most sig bit are
+{MSB of 8b data, 8b data, 8b data, LSB of 8b data, 00, MSB of
+address to the flash, 8b address, 8 bit address}= {2digits, 2 dig, 2dig,
+2dig, 00, 2dig, 2 dig, 2dig} in hex
+
+So TestCase1: 0029A5h is address, and 06060607 h is data: turn address to 
+byte address= 29A5 in hex= 10661 in dec; then 10661*4= 42644 in dec=
+A694 in hex, go to that address in bin file, check data= 06060607h and we
+read the correct data.
+ 
+TestCase2: 1116h is address, and F6EBCD0B h is data: 1116 in hex= 4374 in dec; 
+then 4374*4= 17496 in dec= 4458 in hex, go to that address in bin file, 
+check data= F6EBCD0Bh and we read the correct data.
+
+TEST 2: SIMULATION 2
+Pictures LED_fsm1, LED_fsm2, LED_fsm3:
+
+LED_fsm1 and LED_fsm3: shows when count is 255 (decimal), it goes to average
+state encoded with 0_00_10 in binary, avg gets the division from sum/256
+and becomes 125, and avg[6]=1, and therefore led7 to led1 becomes high or 1
+and led[0] stays low. 
+LED_fsm3: shows the incrementing and changes between states.
+
+TEST 3: SIMULATION 3
+Pictures fsm1_read1, fsm1_read2, fsm1_read3:
+
+These simulations show the transition between states, outputs and state encoding
+written under states. fsm1_read1, and fsm1_read2 show every posedge of r_d_valid
+out get the value of in, these data come from the flash memory. It also shows 
+when read is 1, state=read_state, out_read outputs 1 which is to let the other fsms know,
+and the state transition is as follows:
+
+if(read) go to read_state, go to delay for data to come, then
+if(wait_req) stay in delay, else go to get_val and then idle.   
+
+
+
+
+
+
+
