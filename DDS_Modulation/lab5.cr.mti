@@ -1,0 +1,64 @@
+C:/Users/berka/Desktop/UBC/lab5/dds_mod.v {1 {vlog -work work -stats=none C:/Users/berka/Desktop/UBC/lab5/dds_mod.v
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module dds_mod
+
+Top level modules:
+	dds_mod
+
+} {} {}} C:/Users/berka/Desktop/UBC/lab5/slow_fast_tb.v {1 {vlog -work work -stats=none C:/Users/berka/Desktop/UBC/lab5/slow_fast_tb.v
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module slow_fast_clk_tb
+
+Top level modules:
+	slow_fast_clk_tb
+
+} {} {}} C:/Users/berka/Desktop/UBC/lab5/ask.v {1 {vlog -work work -stats=none C:/Users/berka/Desktop/UBC/lab5/ask.v
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module ask
+
+Top level modules:
+	ask
+
+} {} {}} C:/Users/berka/Desktop/UBC/lab5/fast_slow_clk.v {1 {vlog -work work -stats=none C:/Users/berka/Desktop/UBC/lab5/fast_slow_clk.v
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module fast_slow_clk
+-- Compiling module VDFF1
+-- Compiling module VDFF_12b
+-- Compiling module VDFFE1
+-- Compiling module VDFFE_12b
+
+Top level modules:
+	fast_slow_clk
+	VDFFE1
+
+} {} {}} C:/Users/berka/Desktop/UBC/lab5/slow_fast_clk.v {1 {vlog -work work -stats=none C:/Users/berka/Desktop/UBC/lab5/slow_fast_clk.v
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module slow_fast_clk
+-- Compiling module VDFF
+-- Compiling module VDFFE
+
+Top level modules:
+	slow_fast_clk
+
+} {} {}} C:/Users/berka/Desktop/UBC/lab5/lfsr.v {1 {vlog -work work -stats=none C:/Users/berka/Desktop/UBC/lab5/lfsr.v
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module lfsr
+
+Top level modules:
+	lfsr
+
+} {} {}} C:/Users/berka/Desktop/UBC/lab5/bpsk.v {1 {vlog -work work -stats=none C:/Users/berka/Desktop/UBC/lab5/bpsk.v
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module bpsk
+
+Top level modules:
+	bpsk
+
+} {} {}} C:/Users/berka/Desktop/UBC/lab5/lfsr_tb.v {1 {vlog -work work -stats=none C:/Users/berka/Desktop/UBC/lab5/lfsr_tb.v
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module lfsr_tb
+
+Top level modules:
+	lfsr_tb
+
+} {} {}}
